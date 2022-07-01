@@ -1,0 +1,157 @@
+footer {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    clear: both;
+    background: black;
+    color: rgb(227,198,32);
+ }
+ 
+ footer p {
+    text-align: center;
+ }
+ a:link {
+    color: red;
+    background-color:transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    color:purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 255, 34);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  ul{
+    margin-left: 100px;
+ }
+ li {
+    display:inline;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 150px;
+  }
+
+  body{
+    background-image: url('img/background2.jpg');
+   width:1000px;margin-left:auto;margin-right:auto;
+   color:  black;
+   }
+
+   header {
+    color: rgb(126,20,23);
+    background-color: white;
+    height:150px;
+    display: flex inline-block;
+    text-align: center;
+    padding: 50px;
+    border: medium solid rgb(126,20,23);
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px  rgb(211, 209, 209);
+ }
+ input[type=submit],[type=reset]{
+    font-size:25px;
+    margin-left: 50px;
+  }
+  fieldset{
+    margin-top: 20px;
+    background-color: azure;
+  }
+  form{
+    padding: 10px,15px,10px,15px;
+  }
+
+  legend{
+    color:rgb(126,20,23);
+    background-color: azure;
+    font-size: 35px;
+    font-style: bold;
+    border-radius: 25px;
+  }
+  label{
+    font-size: 25px;
+    display: block;
+  }
+
+  nav {
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    display: inline flex;
+    color:rgb(216,217,219) ;
+    background: rgb(126,20,23);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#move{
+    margin-top: 50px;
+}
+#errorText {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom:0px;
+    margin: 55px 15px 0;
+    background: rgb(124,124,136);
+    color: white;
+    border: 2px solid rgb(190,50,38);
+}
+div.errorMessage {
+    position: relative;
+    top: 70px;
+    color:red;
+    bottom: 20px;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+p.errorMsg {
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+input{
+    font-size: 20px;
+}
+
+#registerButton {
+  font-size:20px;
+  text-align: right;
+  margin: 0 auto;
+  margin-left:20px;
+  float: left;
+  display: block;
+}
+
+#resetButton {
+  font-size: 20px;
+  text-align: right;
+  margin: 0 auto;
+  margin-left:20px;
+  float:left;
+  display: block;
+}

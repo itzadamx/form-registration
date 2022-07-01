@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Created by:  Adam Daabaz on 2021-07-18 -->
+<!--Student Name : Adam Daabaz - Student# : 301151527-->
+<!-- I don't own any of the images on this page-->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width, initial-scale=1.0">
+   <title>Assignment 4</title>
+   <link rel="stylesheet" href="assign4.css" />
+   <script src="modernizr.custom.65897.js"></script>
+</head>
+<body>
+    
+        <header>
+                <img src="img/kart02.jpg" width="300" height="200" style="float: left;" alt="kart logo" title="kart logo" />
+                <div id ="move"><h1>Member Registraion form</h1>
+                <h4><i>"Please fill in each statement individually. You can give only one input per statement."</i></h4>
+               </div>
+        </header>
+        <br>
+        <nav>
+            <ul>
+                <li class="currentPage"><a href="#">Activities</a></li>
+                <li class="currentPage"><a href="#">Members</a></li>
+                <li class="currentPage"><a href="#">Reservations</a></li>
+                <li class="currentPage"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    <br>
+    <article>
+        <form>
+            <fieldset id="details" class="text"><br>
+                <legend>Personal details</legend>
+                <div id="errorText"></div>
+
+                <label for="firstName">First Name:</label>
+                <input id="firstName" name="MemberFirstName" type="text" placeholder=" Jack" required>
+                <p id="firstnameError" class="errorMsg"></p>
+
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" name="MemberLastName" type="text" placeholder="Smith" required>
+                <p id="lastnameError" class="errorMsg"></p>
+
+                <label for="age">Age:</label>
+                <input id="age" name="MemberAge" type="number" placeholder="25" required>
+                <p id="ageError" class="errorMsg"></p>
+<hr>
+                <legend>Location details</legend>
+                <br><br>
+                <label for="address">Address:</label>
+                <input id="address" name="MemberAddress" type="text" placeholder="345 Dufferin St Toronto ON M6K 3G1" required>
+                <p id="addressError" class="errorMsg"></p>
+
+                <label for="city">City:</label>
+                <input id="city" name="MemberCity" type="text" placeholder="Toronto" required>
+                <p id="cityError" class="errorMsg"></p>
+
+                <label for="postal">Postal Code:</label>
+                <input id="postal" name="MemberCode" type="text" placeholder="M6K 3G1" required>
+                <p id="postalcodeError" class="errorMsg"></p>
+
+                <label for="province">Province:</label>
+                <input id="province" name="MemberProvince" type="text"  placeholder="ON" required>
+                <p id="provinceError" class="errorMsg"></p>
+<hr>
+                <legend>Account details </legend>
+                <br><br>
+                <label for="email">Email:</label>
+                <input id="email" name="MemberEmail" type="email"  placeholder="johnsmith25@gmail.com" required>
+                <p id="emailError" class="errorMsg"></p>
+
+                <label for="pwd1">Password:</label>
+                <input id="pwd1" name="Password1" type="password" required>
+
+                <label for="pwd2">Confirm Password:</label>
+                <input id="pwd2" name="Password2" type="password" required>
+                <p id="passwordError" class="errorMsg"></p>
+
+                <div class="errorMessage"></div>
+<br><br>
+<input type="submit" value="Register Now" id="registerButton">
+<input type="reset" value="Clear Form" id="resetButton" >
+            </fieldset>
+        </form>
+    </article><br /><br><br>
+    <footer>
+        <ul><h4>
+           <li class="footerlink"><i><a href="../Index/index.html" target="_blank">Home</a></i></li>
+           <li class="footerlink"><i><a href="mailto:adaabaz@my.centennialcollege.ca">Email</a></i></li></h4>
+       </ul>
+       <br><br><br>
+        <p>
+            &nbsp;&nbsp;&nbsp;&copy;&nbsp;Copyright Adam Daabaz - Assignment 4 - COMP 125 - Summer 2021
+        </p>
+    </footer>
+    <script src="assignment4.js"></script>
+</body>
+</html>
